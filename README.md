@@ -82,9 +82,8 @@ End Sub
 				
 ## 🎬 Video Demo
 
-[![Guarda la demo su YouTube](https://youtu.be/DhrGJItaxSk/0.jpg)]
+Guarda su YouTube :  https://youtu.be/DhrGJItaxSk
 
-oppure  https://youtu.be/DhrGJItaxSk
 
 > 👉 Clicca sull'immagine per vedere la dimostrazione su YouTube.
 
