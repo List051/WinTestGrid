@@ -84,6 +84,8 @@ End Sub
 
 [![Guarda la demo su YouTube](https://youtu.be/DhrGJItaxSk/0.jpg)](https://youtu.be/ABCDefghy?feature=shared)
 
+oppure  https://youtu.be/DhrGJItaxSk
+
 > 👉 Clicca sull'immagine per vedere la dimostrazione su YouTube.
 
 Struttura del progetto
