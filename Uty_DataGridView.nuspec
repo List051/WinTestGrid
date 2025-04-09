@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Uty_DataGridView</id>
+    <version>1.0.1</version>
+    <authors>Iaora</authors>
+    <owners>ItalPascal</owners>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Descrizione: Utilizzo delle funzioni pratiche per la gestione del DataGridView</description>
+    <tags>vb.net c# datagridview database</tags>
+    <readme>README.md</readme>
+
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="System.Windows.Forms" version="4.0.0" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Windows.Forms" version="6.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <!-- Includi file sorgente e WinIaoraLib -->
+    <file src="Class_CaricaDGV.vb" target="contentFiles/any/vb/" />
+
+    <!-- Includi i file di documentazione e licenza -->
+    <file src="README.md" target="." />
+    <file src="LICENSE.txt" target="docs/" />
+  </files>
+</package>

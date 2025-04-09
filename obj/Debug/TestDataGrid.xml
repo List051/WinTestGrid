@@ -1,0 +1,201 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestDataGrid
+</name>
+</assembly>
+<members>
+<member name="T:TestDataGrid.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.agoweb">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.chat">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.computer">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.copywriting">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.laptop">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDataGrid.My.Resources.Resources.search_engine">
+<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.ClientiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.FatturaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.MaterialeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.OrdiniDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.RisultatoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.ClientiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.FatturaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.MaterialeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.OrdiniRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.RisultatoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.ClientiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.FatturaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.MaterialeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.OrdiniRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSet.RisultatoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.ClientiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.FatturaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.MaterialeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.OrdiniTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.RisultatoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(TestDataGrid.DBClientiDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(TestDataGrid.DBClientiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(TestDataGrid.DBClientiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.UpdateAll(TestDataGrid.DBClientiDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TestDataGrid.DBClientiDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

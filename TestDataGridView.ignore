@@ -1,0 +1,19 @@
+# .NET & Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.nupkg
+*.nuget
+_ReSharper*/
+packages/
+TestResults/
+*.dbmdl
+*.db
+*.bak
+*.ldf
+*.vshost.*
