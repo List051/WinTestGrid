@@ -1,3 +1,21 @@
+
+
+<p align="center">
+  <img src="Logo.png" alt="Ital Pascal Logo" width="220">
+</p>
+
+<h1 align="center">WinItalPascal</h1>
+<p align="center">
+  Libreria di utilità per applicazioni VB.NET WinForms
+</p>
+
+
+[![NuGet Version](https://img.shields.io/nuget/v/WinItalPascal?style=for-the-badge)](https://www.nuget.org/packages/WinItalPascal) [![NuGet Downloads](https://img.shields.io/nuget/dt/WinItalPascal?style=for-the-badge)](https://www.nuget.org/packages/WinItalPascal) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://github.com/List051/WinItalPascal_Lib/blob/main/License.txt) [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen?style=for-the-badge)](https://list051.github.io/WinVideoShowcase/)
+
+
+
+## Ora è inserito in Libreria WinItalPascal - vedi NuGet
+
 # Uty_DataGridView
 
 🎬 **Demo Video:** [Guarda su YouTube](https://youtu.be/DhrGJItaxSk)
